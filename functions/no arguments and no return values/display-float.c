@@ -2,9 +2,9 @@
 void displayfloat(void);//global declaration (or) prototype
 int main()
 {
-    displayfloat();//function call
-    displayfloat();//function call
-    displayfloat();//function call
+    displayfloat();//function calls
+    displayfloat();//function calls
+    displayfloat();//function calls
     return 0;
 }
 void displayfloat(void)//function execution part
