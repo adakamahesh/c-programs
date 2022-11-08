@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int n,temp,fact,r,i,sum=0;
+    int n,temp,fact,r,i,sum;
     printf("enter a number :");
     scanf("%d",&n);
     temp=n;
+    sum=0;
     while(n>0)
     {
         r=n%10;
         fact=1;
-        for(i=r;i>=1;i--)
+        for(i=1;i<=r;i++)
         {
             fact=fact*i;
         }
@@ -17,7 +18,7 @@ int main()
         n=n/10;
     }
     n=temp;
-    if(n=sum)
+    if(sum==n)
     {
         printf("strong number");
     }else
